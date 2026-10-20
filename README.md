@@ -1,14 +1,25 @@
-﻿![InkMotion Studio](docs/inkmotion.jpg)
+﻿**[Access InkMotion Studio online — create whiteboard animations in your browser](https://wheat-lark-499706.hostingersite.com/en)**
 
-# InkMotion Studio
+# InkMotion Studio — Open-Source Whiteboard Animation Editor
 
-An open-source, browser-based whiteboard animation editor for creating illustrated explainers with images, text, animated GIFs, drawing effects, keyframes, and audio.
+InkMotion Studio is an open-source, browser-based whiteboard animation editor and explainer video maker. Create animated presentations, educational videos, tutorials, and illustrated explainers with images, text, animated GIFs, hand-drawing effects, motion keyframes, and audio.
+
+![InkMotion Studio whiteboard animation editor](docs/inkmotion.jpg)
 
 Build compositions across multiple scenes, preview their animation, and export video using browser-side rendering. Work locally with browser-saved projects or run the Express application for accounts and database-backed project storage. **The current export interface requires signing in through the backend.**
 
 Developed by **Cleyverson Costa**, based on [Inkplainer by Nadir](https://github.com/NadirWeb-App/Inkplainer-OS). Licensed under [Apache 2.0](LICENSE).
 
-## Features
+## Create whiteboard animations online
+
+[Open the InkMotion Studio platform](https://wheat-lark-499706.hostingersite.com/en) to get started without installing the application. Create a project, arrange your illustrations and text, animate drawing effects, and add audio to your explainer video. Sign in to access video export.
+
+- **Educational videos and tutorials:** explain concepts with step-by-step drawings, labels, and synchronized audio.
+- **Product explainers and presentations:** combine illustrations, animated text, and camera movement to show how an idea or product works.
+- **Social media videos:** compose landscape, portrait, or square animations and export the active scene as MP4 or WebM, depending on browser support.
+- **Self-hosted animation editing:** run the open-source application locally or deploy it with your own accounts and project database.
+
+## Whiteboard animation editor features
 
 ### Content and canvas editing
 
@@ -136,7 +147,7 @@ npx serve .
 
 Open `/studio.html` on the address printed by the server. Static mode supports browser-local editing and project storage. Account synchronization, password reset, and the authenticated export interface require the full application.
 
-## Create an animation
+## How to create a whiteboard animation
 
 1. Open the Studio and create a project.
 2. Upload media to the Content library, then click an asset to place it on the canvas, or add text.
