@@ -1,0 +1,4 @@
+.language-select { flex-shrink:0; max-width:118px; padding:8px 24px 8px 10px; border:1px solid #dedce5; border-radius:7px; background:#fff; color:#35313d; font:500 12px 'Geist',sans-serif; cursor:pointer; }
+.language-select:focus-visible { outline:3px solid #ac96d1; outline-offset:2px; }
+#topbar .language-select { padding:6px; max-width:100px; font-size:11px; }
+@media(max-width:700px) { .home-actions { flex-wrap:wrap; } .home-nav .language-select { max-width:105px; font-size:11px; } }

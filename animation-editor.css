@@ -1,0 +1,61 @@
+.motion-editor { margin-top:10px; border-top:1px solid #e2e6ed; font-size:11px; color:#344054; }
+.motion-editor .motion-toolbar { display:none; }
+.motion-sections { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr)); gap:12px; padding:4px 0 12px; }
+.motion-sections { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.motion-section { min-width:0; margin:0; padding:10px 12px 12px; border:1px solid #e2e6ed; border-radius:10px; background:#fff; }
+.motion-section-hidden { display:none !important; }
+.motion-section legend { padding:0 5px; font-size:11px; font-weight:650; color:#344054; }
+.motion-hint { margin:0 0 10px; color:#7a8495; line-height:1.5; font-size:10px; }
+.motion-fields { display:flex; align-items:flex-end; flex-wrap:wrap; gap:9px; }
+.motion-editor button,.motion-editor select,.motion-editor input { box-sizing:border-box; max-width:100%; min-height:32px; font:inherit; color:inherit; background:#fff; border:1px solid #dce1e9; border-radius:6px; padding:6px 8px; }
+.motion-editor button { cursor:pointer; font-weight:550; }
+.scene-timeline-add:disabled,.pages-add-btn:disabled,.motion-editor button:disabled { opacity:0.4; cursor:not-allowed; }
+.motion-editor button:hover { border-color:#b3a9e8; background:#f7f5ff; color:#5544bf; }
+.motion-editor :is(button,input,select,summary,[tabindex]):focus-visible { outline:2px solid #8876e4; outline-offset:2px; }
+.motion-editor [data-action=play],.motion-editor [data-action=key] { background:#6c5bd1; color:#fff; border-color:#6c5bd1; }
+.motion-editor [data-action=remove-key] { color:#a34d58; }
+.motion-editor input[type=number] { width:88px; }
+.motion-editor label { display:flex; flex-direction:column; align-items:flex-start; gap:5px; color:#697386; font-size:10px; }
+.motion-editor label input,.motion-editor label select { color:#344054; font-size:11px; }
+.motion-editor input[type=range] { min-height:6px; height:6px; padding:0; width:125px; border:0; background:linear-gradient(to right,var(--accent, #222) var(--pct, 27.27%),var(--surface-2, #e5e7eb) var(--pct, 27.27%)); }
+.motion-section-wide { grid-column:1 / -1; }
+.motion-timeline-tools { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:4px 2px 10px; font-weight:600; }
+.motion-timeline-tools label { flex-direction:row; align-items:center; font-weight:400; }
+#motion-time { align-self:center; padding:7px 9px; border-radius:6px; background:#f2f3f8; color:#6555b7; }
+#motion-path { width:210px; }
+#motion-svg-status:empty,.motion-keys:empty { display:none; }
+#motion-svg-status { flex-basis:100%; line-height:1.5; color:#776591; }
+.motion-tooltip { position:fixed; z-index:10000; width:max-content; max-width:min(300px,calc(100vw - 16px)); padding:10px 12px; box-sizing:border-box; border:1px solid #414b60; border-radius:8px; background:#293244; color:#f6f7fb; font:11px/1.6 sans-serif; box-shadow:0 5px 20px #17203126; pointer-events:none; }
+.motion-scroll { overflow:visible; min-height:64px; position:relative; margin-bottom:16px; border:1px solid #e2e6ed; border-radius:8px; background:#f8f9fc; }
+.motion-track { display:flex; width:max-content; min-width:100%; height:30px; border-bottom:1px solid var(--border-hi,#ddd); }
+.motion-label { position:sticky; left:0; width:170px; min-width:170px; z-index:3; display:flex; align-items:center; gap:4px; background:var(--surface,#fff); }
+.motion-label .motion-name { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; flex:1; text-align:left; }
+.motion-lane { position:relative; flex-shrink:0; background:repeating-linear-gradient(90deg,transparent 0,transparent calc(var(--motion-second-width, 80px) - 1px),#8882 calc(var(--motion-second-width, 80px) - 1px),#8882 var(--motion-second-width, 80px)); }
+.motion-clip { position:absolute; top:3px; height:23px; min-width:8px; background:#7765d8!important; color:white!important; border:1px solid #6553c2!important; overflow:hidden; touch-action:none; cursor:grab!important; }
+.motion-editor .motion-clip { min-height:23px; padding:2px 8px; }
+.motion-label button { min-height:24px; padding:3px 5px; }
+.motion-track.selected .motion-clip { outline:2px solid #f0ad4e; }
+.motion-resize { position:absolute; right:0; top:0; bottom:0; width:9px; background:#ffffff55; cursor:ew-resize; }
+.motion-ruler { height:24px; display:flex; width:max-content; min-width:100%; cursor:crosshair; }
+.motion-tick { position:absolute; font-size:10px; }
+.motion-cursor { position:absolute; width:1px; top:0; bottom:0; background:#ed6262; pointer-events:none; z-index:2; }
+.motion-keys { display:flex; gap:5px; flex-wrap:wrap; margin-top:12px; padding-top:10px; border-top:1px solid #eef0f5; }
+.audio-timeline-tools { display:flex; gap:12px; align-items:center; padding:8px; position:sticky; left:0; flex-wrap:wrap; background:#f8f9fc; }
+.audio-timeline-tools span { color:#697386; }
+.audio-selection-controls { position:fixed; z-index:10001; display:flex; gap:12px; padding:12px; border:1px solid #dce1e9; border-radius:10px; background:#fff; box-shadow:0 6px 24px #17203126; }
+.audio-selection-controls label { display:flex; flex-direction:column; gap:5px; color:#697386; font:10px sans-serif; }
+.audio-selection-controls input { box-sizing:border-box; width:88px; height:32px; padding:6px 8px; border:1px solid #dce1e9; border-radius:6px; background:#f8f9fc; color:#344054; font:11px sans-serif; }
+.audio-selection-controls input:focus-visible { outline:2px solid #8876e4; outline-offset:2px; }
+.audio-lane { position:relative; flex-shrink:0; background:#edeef2; }
+.audio-track { height:34px; }
+.motion-editor .audio-clip { height:28px; padding:0; background:#a18acb!important; }
+.audio-clip canvas { width:100%; height:100%; pointer-events:none; }
+.audio-trim-start { left:0; right:auto; }
+.audio-cursor { position:absolute; width:1px; top:0; bottom:0; background:#ed6262; pointer-events:none; z-index:2; }
+.motion-editor output { font-variant-numeric:tabular-nums; }
+@media (max-width: 1100px) { .motion-sections { grid-template-columns:1fr; } }
+.scene-timeline:has(.motion-editor) { z-index:50; height:min(32vh,260px); max-height:min(32vh,260px); overflow:auto; overscroll-behavior:contain; scrollbar-width:thin; scrollbar-gutter:stable; }
+.scene-timeline:has(.motion-editor) .scene-scroll { overflow:visible; padding-bottom:0; }
+.scene-timeline:has(.motion-editor) .scene-timeline-header {  top:0; left:0; z-index:10; padding:4px 0; background:#fff; }
+.scene-timeline:has(.motion-editor) .scene-timeline-add { position:static; flex-shrink:0; }
+.motion-timeline-tools,.motion-sections { position:sticky; left:0; }

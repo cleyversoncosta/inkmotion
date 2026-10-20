@@ -1,0 +1,60 @@
+{
+  "rewrites": [
+    {
+      "source": "en",
+      "destination": "/index.html"
+    },
+    {
+      "source": "en/docs",
+      "destination": "/pages/docs.html"
+    },
+    {
+      "source": "en/studio",
+      "destination": "/studio.html"
+    },
+    {
+      "source": "en/studio/**",
+      "destination": "/studio.html"
+    },
+    {
+      "source": "pt",
+      "destination": "/index.html"
+    },
+    {
+      "source": "pt/docs",
+      "destination": "/pages/docs.html"
+    },
+    {
+      "source": "pt/studio",
+      "destination": "/studio.html"
+    },
+    {
+      "source": "pt/studio/**",
+      "destination": "/studio.html"
+    },
+    {
+      "source": "es",
+      "destination": "/index.html"
+    },
+    {
+      "source": "es/docs",
+      "destination": "/pages/docs.html"
+    },
+    {
+      "source": "es/studio",
+      "destination": "/studio.html"
+    },
+    {
+      "source": "es/studio/**",
+      "destination": "/studio.html"
+    },
+    {
+      "source": "studio",
+      "destination": "/studio.html"
+    },
+    {
+      "source": "studio/**",
+      "destination": "/studio.html"
+    }
+  ]
+}

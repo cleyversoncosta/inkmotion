@@ -1,0 +1,100 @@
+/* Studio tool workspaces. Scoped to the left sidebar. */
+#sidebar {
+  width: 320px;
+  min-width: 320px;
+  overflow: hidden;
+  background: #f8f9fb;
+  border-right: 1px solid #e2e5eb;
+}
+#sidebar .sidebar-tabs {
+  position: static;
+  flex-shrink: 0;
+  padding: 20px 16px 14px;
+  gap: 18px;
+  background: #fff;
+  backdrop-filter: none;
+}
+.studio-tools-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 14px; font-weight: 650; color: #202632; }
+.studio-tools-badge { font-size: 9px; font-weight: 600; letter-spacing: .1em; color: #727c8d; }
+#sidebar .sidebar-tab-row { padding: 4px; gap: 4px; border: 0; border-radius: 10px; background: #f0f2f6; }
+#sidebar .sidebar-tab-btn { flex-direction: column; gap: 7px; min-height: 60px; border-radius: 7px; font-size: 11px; font-weight: 600; color: #687386; }
+#sidebar .sidebar-tab-btn svg { width: 17px; height: 17px; }
+#sidebar .sidebar-tab-btn:hover { background: #e7eaf0; color: #202632; }
+#sidebar .sidebar-tab-btn.active { background: #fff; color: #5145cd; box-shadow: 0 1px 4px #18264418; }
+#sidebar .sidebar-tab-pane { flex: 1; min-height: 0; overflow-y: auto; overflow-x: hidden; padding: 0 0 20px; scrollbar-width: thin; scrollbar-color: #cdd3dd transparent; }
+.workspace-intro { padding: 22px 18px 18px; }
+.workspace-intro h2 { margin: 0 0 6px; font-size: 18px; font-weight: 650; letter-spacing: -.5px; color: #202632; }
+.workspace-intro p { margin: 0; font-size: 12px; line-height: 1.6; color: #737d8d; }
+#sidebar .sidebar-section-label { margin: 20px 18px 9px; font-size: 10px; font-weight: 650; letter-spacing: .08em; color: #737d8d; }
+#sidebar .workspace-intro + .sidebar-section-label { margin-top: 0; }
+#sidebar .card,
+#sidebar .hand-glide-row,
+#sidebar .audio-controls-panel,
+#sidebar #bottom-bar.sidebar-controls { margin: 0 16px 10px; border: 1px solid #e2e6ed; border-radius: 12px; background: #fff; box-shadow: 0 2px 3px #1d293904; }
+#sidebar .card { animation: none; }
+#sidebar .card-header { min-height: 44px; padding: 12px; background: transparent; }
+#sidebar .card-header-label { font-size: 12px; font-weight: 600; }
+#sidebar .card-chevron { background: transparent; }
+#sidebar .card-body { padding: 4px 12px 14px; }
+#sidebar .input-card { margin: 0 16px; padding: 0; border: 0; background: transparent; box-shadow: none; }
+#sidebar .input-card > .tab-group { display: flex; gap: 0; padding: 0; margin: 0 0 18px; border: 0; border-bottom: 1px solid #dde2ea; border-radius: 0; background: transparent; }
+#sidebar .input-card > .tab-group .tab-btn { flex: 1; min-height: 38px; border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: transparent; font-size: 12px; font-weight: 550; color: #727c8d; box-shadow: none; }
+#sidebar .input-card > .tab-group .tab-btn.active { color: #5145cd; border-bottom-color: #6558dc; }
+#sidebar #drop-zone { padding: 24px 12px; border: 1px dashed #b9c1d3; border-radius: 12px; background: #fff; }
+#sidebar #drop-zone:hover, #sidebar #drop-zone.drag-over { border-color: #6558dc; background: #f4f2ff; }
+#sidebar .drop-icon { width: 38px; height: 38px; margin: 0 auto 12px; border-radius: 11px; background: #f0edff; color: #6558dc; display: grid; place-items: center; }
+#sidebar .drop-icon svg { color: #6558dc; }
+#sidebar .drop-primary { font-size: 13px; font-weight: 600; }
+#sidebar .drop-secondary { margin-top: 7px; font-size: 11px; line-height: 1.6; }
+#sidebar .asset-library { margin-top: 24px; padding-top: 0; border-top: 0; }
+#sidebar .asset-library-header { margin-bottom: 12px; }
+#sidebar .asset-library-title { font-size: 12px; font-weight: 600; letter-spacing: 0; text-transform: none; color: #344054; }
+#sidebar .asset-library-count { min-width: 22px; padding: 3px 6px; border-radius: 6px; background: #e9edf3; color: #637085; text-align: center; font-size: 10px; }
+#sidebar .asset-library-empty { padding: 26px 18px; border: 1px solid #e2e6ed; border-radius: 12px; background: #fff; font-size: 12px; line-height: 1.6; }
+#sidebar .asset-grid { gap: 10px; }
+#sidebar .asset-item { border-radius: 10px; background: #fff; }
+#sidebar .asset-item button { width: 24px; height: 24px; }
+#sidebar .asset-item:focus-within button { opacity: 1; }
+#sidebar .preset-grid { gap: 8px; }
+#sidebar .preset-card { border-radius: 8px; }
+#sidebar .bb-hand-pill, #sidebar .bb-ratio-btn, #sidebar .bb-res-btn { min-height: 36px; font-size: 11px; justify-content: center; }
+#sidebar .bb-hand-pill.selected, #sidebar .bb-ratio-btn.active, #sidebar .bb-res-btn.active { color: #5145cd; background: #f3f1ff; border-color: #c7bff6; box-shadow: none; }
+#sidebar .hand-glide-row { padding: 14px 12px; }
+#sidebar .bb-hand-section { flex: 0 0 auto !important; }
+#sidebar .bb-hand-section .card-body { max-height: none; padding: 4px 12px 14px; }
+#sidebar .bb-hand-section.collapsed .card-body { max-height: 0; padding-top: 0; padding-bottom: 0; }
+#sidebar .bb-hand-section .bb-hand-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+#sidebar .bb-hand-section .bb-hand-pill {
+  position: relative; display: flex; flex-direction: column; gap: 0;
+  min-width: 0; padding: 0 0 9px; overflow: hidden; border-radius: 9px;
+  border: 1px solid #e2e6ed; background: #fff; color: #526074;
+  font: inherit; font-size: 11px; font-weight: 550; cursor: pointer;
+  transition: border-color .15s, background .15s, box-shadow .15s;
+}
+#sidebar .bb-hand-section .bb-hand-pill:hover { border-color: #aea4e9; background: #faf9ff; }
+#sidebar .bb-hand-section .bb-hand-pill.selected { border-color: #8171df; background: #f4f1ff; color: #5145cd; box-shadow: inset 0 0 0 1px #8171df; }
+#sidebar .bb-hand-section .bb-hand-pill.selected::after {
+  content: '✓'; position: absolute; top: 6px; right: 6px; width: 17px; height: 17px;
+  display: grid; place-items: center; border-radius: 50%; background: #6c5bd1; color: #fff; font-size: 10px;
+}
+#sidebar .hand-preview { display: flex; align-items: flex-start; justify-content: center; width: 100%; height: 76px; margin-bottom: 7px; overflow: hidden; background: linear-gradient(145deg, #f4f6fa, #eef0f6); }
+#sidebar .hand-preview img { display: block; width: 65px; height: 116px; object-fit: contain; object-position: center top; transform: rotate(-12deg); transform-origin: center 35%; }
+#sidebar .bb-hand-pill[data-hand="custom4"] .hand-preview img { height: 76px; transform: rotate(25deg); }
+#sidebar .bb-hand-pill[data-hand="custom5"] .hand-preview img,
+#sidebar .bb-hand-pill[data-hand="custom6"] .hand-preview img { height: 94px; transform: none; }
+#sidebar .bb-hand-section .hand-ghost { grid-column: 1 / -1; flex-direction: row; justify-content: flex-start; gap: 10px; min-height: 55px; padding: 10px 28px 10px 12px; text-align: left; }
+#sidebar .hand-ghost svg { flex-shrink: 0; color: #8a92a3; }
+#sidebar .hand-ghost small { display: block; margin-top: 3px; color: #8991a0; font-size: 10px; font-weight: 400; }
+#sidebar #background-panel { display: block !important; margin: 0 16px 10px; padding: 14px; background: #fff; border: 1px solid #e2e6ed; border-radius: 12px; }
+#sidebar .audio-row { display: flex; flex-wrap: wrap; gap: 9px; }
+#sidebar .audio-name { flex: 1 1 120px; font-size: 11px; }
+#sidebar .audio-upload-btn { min-height: 34px; }
+#sidebar .sidebar-actions { position: static; flex-shrink: 0; margin-top: auto; padding: 14px 16px; background: #fff; border-top: 1px solid #e2e5eb; animation: none; }
+#sidebar #btn-generate { height: 44px; border-radius: 10px; background: #252b3a; box-shadow: 0 2px 3px #18264412; font-size: 12px; font-weight: 600; }
+#sidebar #btn-generate:hover { background: #394154; }
+#sidebar :is(button, input, select, [tabindex]):focus-visible { outline: 2px solid #7566e6; outline-offset: 3px; }
+@media (max-width: 1200px) {
+  #sidebar { width: 280px; min-width: 280px; }
+  #sidebar .sidebar-tabs { padding: 16px 12px 12px; }
+  .workspace-intro { padding: 18px 16px 16px; }
+}

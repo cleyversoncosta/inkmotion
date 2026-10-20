@@ -1,0 +1,189 @@
+Back to app	Voltar ao aplicativo	Volver a la aplicación
+1 — Core Concepts	1 — Conceitos básicos	1 — Conceptos básicos
+The Mental Model	Como pensar no projeto	Cómo pensar el proyecto
+How the Canvas Works	Como a tela funciona	Cómo funciona el lienzo
+Layer Sequence	Sequência de camadas	Secuencia de capas
+The Two Tabs	As duas abas	Las dos pestañas
+2 — Projects	2 — Projetos	2 — Proyectos
+Creating Projects	Criando projetos	Crear proyectos
+Auto-Save	Salvamento automático	Guardado automático
+Keyboard Shortcuts	Atalhos de teclado	Atajos de teclado
+3 — Layers	3 — Camadas	3 — Capas
+Adding Images	Adicionando imagens	Añadir imágenes
+Adding Text	Adicionando texto	Añadir texto
+Layer List	Lista de camadas	Lista de capas
+Animation Order	Ordem da animação	Orden de animación
+The Slicer	O fatiador	El divisor
+4 — Animation Tab	4 — Aba Animação	4 — Pestaña Animación
+Smooth Hand Movement	Movimento suave da mão	Movimiento suave de la mano
+Basic Styles	Estilos básicos	Estilos básicos
+Specialized Styles	Estilos especializados	Estilos especializados
+5 — Drawing Tab	5 — Aba Desenho	5 — Pestaña Dibujo
+Outline Modes	Modos de contorno	Modos de contorno
+6 — Bottom Bar	6 — Barra inferior	6 — Barra inferior
+Speed Controls	Controles de velocidade	Controles de velocidad
+7 — Export	7 — Exportação	7 — Exportación
+Generate	Gerar	Generar
+Playbar	Barra de reprodução	Barra de reproducción
+Exporting	Exportando	Exportación
+Export Checklist	Lista de verificação da exportação	Lista de verificación de exportación
+About Inkplainer	Sobre o Inkplainer	Acerca de Inkplainer
+Privacy Policy	Política de privacidade	Política de privacidad
+User Documentation	Documentação do usuário	Documentación del usuario
+How Inkplainer Works	Como o Inkplainer funciona	Cómo funciona Inkplainer
+Everything you need to create hand-drawn whiteboard animations in a desktop browser — from adding your first image to exporting a finished video. Use the sidebar to jump to any section.	Tudo para criar animações de quadro branco no navegador do computador — da primeira imagem à exportação do vídeo. Use a barra lateral para ir a qualquer seção.	Todo para crear animaciones de pizarra en el navegador de tu ordenador, desde la primera imagen hasta la exportación del video. Usa la barra lateral para ir a cualquier sección.
+Add Layers	Adicionar camadas	Añadir capas
+Choose Settings	Escolher configurações	Elegir ajustes
+Export	Exportar	Exportar
+Section 1	Seção 1	Sección 1
+Core Concepts	Conceitos básicos	Conceptos básicos
+Inkplainer takes your images and text and turns them into videos that look like someone is drawing them by hand in real time — the kind of effect you see in explainer videos, educational content, and social media animations. You upload your content, choose how it should be drawn, hit Generate, and the app animates it frame by frame on a canvas. When you're happy with the result, you export it as a video file.	O Inkplainer transforma imagens e textos em vídeos que parecem desenhados à mão em tempo real — como vídeos explicativos, educativos e de redes sociais. Envie o conteúdo, escolha como desenhá-lo e clique em Gerar. O aplicativo anima quadro a quadro na tela. Quando gostar do resultado, exporte como vídeo.	Inkplainer transforma imágenes y textos en videos que parecen dibujados a mano en tiempo real, como videos explicativos, educativos y de redes sociales. Sube tu contenido, elige cómo dibujarlo y pulsa Generar. La aplicación lo anima fotograma a fotograma en el lienzo. Cuando te guste el resultado, expórtalo como video.
+There are no subscriptions or required accounts. The editor runs directly in your browser and saves projects locally on your device.	O editor funciona no navegador e salva projetos localmente. Você pode criar sem entrar na conta; a autenticação é necessária para exportar vídeos.	El editor funciona en el navegador y guarda proyectos localmente. Puedes crear sin iniciar sesión; la autenticación es necesaria para exportar videos.
+Before touching any setting, it helps to understand how the app thinks about your project:	Antes de alterar configurações, entenda como o aplicativo organiza seu projeto:	Antes de cambiar ajustes, entiende cómo organiza la aplicación tu proyecto:
+are the raw material. Every image or piece of text you add becomes its own layer. Layers stack on top of each other on the canvas, just like in any image editor.	são a matéria-prima. Cada imagem ou texto vira uma camada. As camadas se sobrepõem na tela, como em um editor de imagens.	son la materia prima. Cada imagen o texto se convierte en una capa. Las capas se superponen en el lienzo, como en un editor de imágenes.
+Settings	Configurações	Ajustes
+tell the app how to draw each layer. You select a layer, then configure its animation style, drawing look, speed, and hand. Every setting you change applies to that specific layer — not to the whole project. Each layer in your animation can look completely different from the others.	definem como desenhar cada camada. Selecione uma camada e configure estilo, aparência, velocidade e mão. Cada ajuste se aplica àquela camada, não ao projeto inteiro. Cada camada pode ter uma aparência diferente.	definen cómo dibujar cada capa. Selecciona una capa y configura estilo, apariencia, velocidad y mano. Cada ajuste se aplica a esa capa, no a todo el proyecto. Cada capa puede tener una apariencia diferente.
+is the moment the app reads all your layers and their settings and plays the animation. You can watch it in real time, pause it, restart it, and tweak settings between runs.	é quando o aplicativo lê as camadas e configurações e reproduz a animação. Você pode assistir em tempo real, pausar, reiniciar e ajustar entre reproduções.	es cuando la aplicación lee las capas y sus ajustes y reproduce la animación. Puedes verla en tiempo real, pausar, reiniciar y ajustar entre reproducciones.
+records the animation as a video file that you can use anywhere.	grava a animação como um arquivo de vídeo para usar onde quiser.	graba la animación como un archivo de video para usar donde quieras.
+The canvas is the white (or colored) area in the center of the screen. It is where your animation plays. What you see on the canvas during playback is exactly what will be recorded when you export — no hidden cropping, no re-rendering.	A tela é a área branca ou colorida no centro. É onde a animação é reproduzida. O conteúdo mostrado na reprodução corresponde ao conteúdo exportado.	El lienzo es el área blanca o de color en el centro. Allí se reproduce la animación. El contenido de la reproducción corresponde al contenido exportado.
+The canvas has a fixed resolution you choose (720p, 1080p, or 1440p) and a fixed aspect ratio (16:9, 9:16, or 1:1). When you upload an image, it is automatically scaled and centered to fit within that canvas. You can then reposition and resize it however you like.	Escolha a resolução (720p, 1080p ou 1440p) e a proporção (16:9, 9:16 ou 1:1). As imagens enviadas são ajustadas e centralizadas automaticamente. Depois, você pode movê-las e redimensioná-las.	Elige la resolución (720p, 1080p o 1440p) y la proporción (16:9, 9:16 o 1:1). Las imágenes subidas se ajustan y centran automáticamente. Después puedes moverlas y redimensionarlas.
+How Layers Animate in Sequence	Como as camadas são animadas em sequência	Cómo se animan las capas en secuencia
+When you press Generate, layers animate one after another, in the order you define. As each layer finishes being drawn, it gets permanently "baked" into the background — it stays visible while the next layer animates on top of it.	Ao clicar em Gerar, as camadas são animadas na ordem definida. Quando uma camada termina, permanece visível no fundo enquanto a próxima é animada sobre ela.	Al pulsar Generar, las capas se animan en el orden definido. Cuando una termina, permanece visible al fondo mientras la siguiente se anima encima.
+Earlier layers are always visible behind later ones	As camadas anteriores ficam visíveis atrás das seguintes	Las capas anteriores permanecen visibles detrás de las siguientes
+Two layers with the	Duas camadas com o	Dos capas con el
+same order number	mesmo número de ordem	mismo número de orden
+animate at the same time, in parallel	animam ao mesmo tempo, em paralelo	se animan al mismo tiempo, en paralelo
+The Two Sidebar Tabs: Animation and Drawing	As duas abas laterais: Animação e Desenho	Las dos pestañas laterales: Animación y Dibujo
+Animation tab	A aba Animação	La pestaña Animación
+is designed for speed. It gives you a set of styles that work well out of the box — similar to what you find in other whiteboard animation apps. Pick a style, adjust a couple of sliders, and get a good-looking result in under a minute.	foi criada para agilizar. Oferece estilos prontos, como em outros aplicativos de quadro branco. Escolha um estilo e ajuste os controles para obter um resultado rapidamente.	está diseñada para agilizar. Ofrece estilos listos, como otros editores de pizarra. Elige un estilo y ajusta los controles para obtener un resultado rápidamente.
+Drawing tab	A aba Desenho	La pestaña Dibujo
+is designed for control. It gives you detailed options for how outlines are detected, how strokes look, how fills are applied, and how the image is revealed.	foi criada para dar controle. Oferece opções detalhadas de detecção de contornos, aparência dos traços, preenchimento e revelação da imagem.	está diseñada para dar control. Ofrece opciones detalladas de detección de contornos, apariencia de trazos, relleno y revelado de imagen.
+The two tabs are mutually exclusive per layer — you pick one approach for each layer, not both. If you want the Animation tab's look on one layer and the Drawing tab's look on another, that is completely valid. But a single layer uses either the Animation tab or the Drawing tab, not both at the same time.	Cada camada usa apenas uma das abordagens. Você pode usar Animação em uma camada e Desenho em outra, mas não as duas simultaneamente na mesma camada.	Cada capa usa solo uno de los enfoques. Puedes usar Animación en una capa y Dibujo en otra, pero no ambos simultáneamente en la misma capa.
+Section 2	Seção 2	Sección 2
+Projects and the Interface	Projetos e interface	Proyectos e interfaz
+Creating a Project	Criando um projeto	Crear un proyecto
+When you first open the app, a new project is created automatically with a randomly generated name like "Bold Sketch" or "Vivid Canvas." To manage your projects, click the	Ao abrir o aplicativo pela primeira vez, um projeto é criado automaticamente com um nome aleatório. Para gerenciar seus projetos, clique no botão	Al abrir la aplicación por primera vez, se crea un proyecto con un nombre aleatorio. Para gestionar tus proyectos, pulsa el botón
+button in the top bar.	na barra superior.	en la barra superior.
+Create a new project	Criar um novo projeto	Crear un nuevo proyecto
+— click "New Project." The current project is saved automatically before switching.	— clique em “Novo projeto”. O projeto atual é salvo automaticamente antes da troca.	— pulsa “Nuevo proyecto”. El proyecto actual se guarda automáticamente antes del cambio.
+Switch to an existing project	Abrir um projeto existente	Abrir un proyecto existente
+— click its name in the list.	— clique no nome na lista.	— pulsa su nombre en la lista.
+Delete a project	Excluir um projeto	Eliminar un proyecto
+— hover over it and click the delete button. This is permanent and cannot be undone.	— passe o cursor e clique em excluir. Essa ação é permanente e não pode ser desfeita.	— pasa el cursor y pulsa eliminar. Esta acción es permanente y no se puede deshacer.
+The Projects window also shows the total storage all your saved projects are using, right under the title — handy for keeping an eye on browser storage if you work with a lot of projects.	A janela Projetos mostra o armazenamento total usado logo abaixo do título. Isso ajuda a acompanhar o espaço do navegador quando há muitos projetos.	La ventana Proyectos muestra el almacenamiento total usado debajo del título. Esto ayuda a controlar el espacio del navegador cuando hay muchos proyectos.
+Projects are stored in your browser using IndexedDB — they live on your device, not in the cloud. They will not transfer automatically to another device or browser.	Projetos locais são armazenados no navegador com IndexedDB, no seu dispositivo. Não são transferidos automaticamente para outro dispositivo ou navegador. Use a conta para salvar projetos online.	Los proyectos locales se guardan en el navegador con IndexedDB, en tu dispositivo. No se transfieren automáticamente a otro dispositivo o navegador. Usa tu cuenta para guardar proyectos en línea.
+The app saves your project automatically every time you make a meaningful change. You do not need to press a save button. A small save indicator appears briefly in the top bar each time a save completes.	O aplicativo salva o projeto automaticamente após alterações relevantes. Não é preciso clicar em Salvar. Um indicador aparece brevemente na barra superior quando o salvamento termina.	La aplicación guarda el proyecto automáticamente tras cambios relevantes. No necesitas pulsar Guardar. Un indicador aparece brevemente en la barra superior al terminar.
+What gets saved per project:	O que é salvo por projeto:	Qué se guarda por proyecto:
+All layers, including their images, positions, sizes, and every per-layer setting	Todas as camadas, com imagens, posições, tamanhos e configurações individuais	Todas las capas, con imágenes, posiciones, tamaños y ajustes individuales
+Canvas dimensions and background	Dimensões e fundo da tela	Dimensiones y fondo del lienzo
+Global animation settings (hand style, speed, etc.)	Configurações globais de animação (mão, velocidade etc.)	Ajustes globales de animación (mano, velocidad, etc.)
+Layer groups and animation order	Grupos de camadas e ordem da animação	Grupos de capas y orden de animación
+The Top Bar	A barra superior	La barra superior
+Element	Elemento	Elemento
+What it does	O que faz	Qué hace
+Inkplainer logo	Logotipo do Inkplainer	Logotipo de Inkplainer
+Click to open the dropdown menu (About, Documentation, Privacy Policy)	Clique para abrir o menu (Sobre, Documentação, Política de privacidade)	Pulsa para abrir el menú (Acerca de, Documentación, Política de privacidad)
+button	botão	botón
+Opens the Projects modal	Abre a janela Projetos	Abre la ventana Proyectos
+Project name	Nome do projeto	Nombre del proyecto
+Click to rename the current project	Clique para renomear o projeto atual	Pulsa para renombrar el proyecto actual
+↩ Undo / ↪ Redo	↩ Desfazer / ↪ Refazer	↩ Deshacer / ↪ Rehacer
+Undo or redo the last change	Desfaz ou refaz a última alteração	Deshace o rehace el último cambio
+Opens the Export banner above the canvas	Abre o painel de exportação acima da tela	Abre el panel de exportación encima del lienzo
+Shortcut	Atalho	Atajo
+Action	Ação	Acción
+Space	Espaço	Espacio
+Play / Pause the animation	Reproduzir / pausar a animação	Reproducir / pausar la animación
+Delete	Excluir	Eliminar
+Remove the selected layer (only when not typing)	Remove a camada selecionada (quando não estiver digitando)	Elimina la capa seleccionada (cuando no estés escribiendo)
+Undo	Desfazer	Deshacer
+Redo	Refazer	Rehacer
+Redo (alternative)	Refazer (alternativo)	Rehacer (alternativo)
+Cancel text placement or close text editor without saving	Cancela a inserção de texto ou fecha o editor sem salvar	Cancela la inserción de texto o cierra el editor sin guardar
+Confirm and close the text editor	Confirma e fecha o editor de texto	Confirma y cierra el editor de texto
+You cannot undo while the animation is playing. Pause or restart the animation first.	Não é possível desfazer durante a reprodução. Pause ou reinicie a animação primeiro.	No puedes deshacer durante la reproducción. Pausa o reinicia la animación primero.
+Section 3	Seção 3	Sección 3
+To add an image, use the drop zone in the top section of the right panel. You can drag and drop one or more image files directly, or click the drop zone to open a file browser.	Para adicionar imagens, use a área de envio no topo do painel direito. Arraste um ou mais arquivos ou clique na área para selecionar arquivos.	Para añadir imágenes, usa la zona de carga en la parte superior del panel derecho. Arrastra uno o más archivos o pulsa la zona para seleccionarlos.
+Supported formats:	Formatos aceitos:	Formatos admitidos:
+You can upload multiple files at once — each file becomes its own layer. The app accepts images of any size and will scale them to fit the canvas automatically.	Você pode enviar vários arquivos de uma vez; cada um vira uma camada. O aplicativo aceita imagens de qualquer tamanho e as ajusta à tela automaticamente.	Puedes subir varios archivos a la vez; cada uno se convierte en una capa. La aplicación acepta imágenes de cualquier tamaño y las ajusta al lienzo automáticamente.
+PNG files with transparency work best with the Drawing tab's outline detection — the transparent areas give the edge-detection algorithms a clean boundary to work with.	Arquivos PNG transparentes funcionam melhor na detecção de contornos da aba Desenho, pois as áreas transparentes fornecem limites claros aos algoritmos.	Los PNG transparentes funcionan mejor con la detección de contornos de Dibujo, porque las áreas transparentes proporcionan límites claros a los algoritmos.
+Switch to the	Mude para a aba	Cambia a la pestaña
+tab in the right panel to add a text layer. Click the highlighted	no painel direito para adicionar uma camada de texto. Clique no botão destacado	en el panel derecho para añadir una capa de texto. Pulsa el botón resaltado
+"Click canvas to place text"	“Clique na tela para inserir texto”	“Haz clic en el lienzo para insertar texto”
+button at the top of the panel, then click anywhere on the canvas to drop the text there. The button turns green and prompts you while placement is active. Once placed, the text editor opens and you can configure it:	no topo do painel e clique na tela para inserir o texto. O botão fica verde enquanto a inserção está ativa. Depois, o editor de texto abre com estas opções:	en la parte superior del panel y haz clic en el lienzo para insertar el texto. El botón se vuelve verde mientras la inserción está activa. Después, el editor abre con estas opciones:
+— choose from the font picker list	— escolha na lista de fontes	— elige en la lista de fuentes
+Size	Tamanho	Tamaño
+— Bold (B) and Italic (I) toggles	— opções Negrito (B) e Itálico (I)	— opciones Negrita (B) y Cursiva (I)
+Alignment	Alinhamento	Alineación
+— Left, Center, or Right	— Esquerda, Centro ou Direita	— Izquierda, Centro o Derecha
+Letter spacing	Espaçamento entre letras	Espaciado entre letras
+— 8 preset swatches or a custom color picker	— 8 cores predefinidas ou seletor de cor personalizada	— 8 colores predefinidos o selector de color personalizado
+To edit text after placing it,	Para editar o texto após inseri-lo,	Para editar el texto después de insertarlo,
+double-click	clique duas vezes	haz doble clic
+it directly on the canvas. Press	nele diretamente na tela. Pressione	en él directamente en el lienzo. Pulsa
+to confirm, or	para confirmar, ou	para confirmar, o
+to cancel.	para cancelar.	para cancelar.
+The Layer List	A lista de camadas	La lista de capas
+Every layer you add appears in the layer list at the bottom of the right panel, from top to bottom in visual stacking order. Each layer row shows:	Cada camada aparece na lista na parte inferior do painel direito, na ordem visual de empilhamento. Cada linha mostra:	Cada capa aparece en la lista inferior del panel derecho, en orden visual de apilamiento. Cada fila muestra:
+⠿ Drag handle	⠿ Alça de arraste	⠿ Asa de arrastre
+— drag to reorder layers in the visual stack	— arraste para reordenar as camadas visualmente	— arrastra para reordenar las capas visualmente
+Eye icon	Ícone de olho	Icono de ojo
+— toggle visibility. Hidden layers are excluded from the animation	— alterna a visibilidade. Camadas ocultas não entram na animação	— alterna la visibilidad. Las capas ocultas no se incluyen en la animación
+Thumbnail	Miniatura	Miniatura
+— a preview of the image or text	— prévia da imagem ou texto	— vista previa de la imagen o texto
+Layer name	Nome da camada	Nombre de capa
+— click once to select; click again to rename inline	— clique para selecionar; clique novamente para renomear	— pulsa para seleccionar; pulsa de nuevo para renombrar
+Order field	Campo de ordem	Campo de orden
+— controls when this layer animates	— controla quando a camada é animada	— controla cuándo se anima la capa
+✕ Delete	✕ Excluir	✕ Eliminar
+— removes the layer (use Undo to recover)	— remove a camada (use Desfazer para recuperar)	— elimina la capa (usa Deshacer para recuperarla)
+Click any layer to select it and expand its individual controls:	Clique em uma camada para selecioná-la e expandir os controles individuais:	Pulsa una capa para seleccionarla y desplegar sus controles individuales:
+Resize	Redimensionar	Redimensionar
+assignment, and	atribuído, e	asignado, y
+Position & Size	Posição e tamanho	Posición y tamaño
+(X, Y, W, H coordinates).	(coordenadas X, Y, largura e altura).	(coordenadas X, Y, ancho y alto).
+The	O campo	El campo
+Order	Ordem	Orden
+field on each layer controls when it animates relative to the others.	de cada camada controla quando ela é animada em relação às outras.	de cada capa controla cuándo se anima respecto a las demás.
+Layers animate from the	As camadas são animadas do	Las capas se animan del
+lowest order number	menor número de ordem	menor número de orden
+to the highest	para o maior	al mayor
+Layers with	Camadas com	Las capas con
+no order number	ordem em branco	orden en blanco
+animate after all numbered layers, in visual stack order	animam depois de todas as numeradas, na ordem visual	se animan después de las numeradas, en orden visual
+Layers with the	Camadas com o	Las capas con el
+animate simultaneously — in parallel	animam simultaneamente, em paralelo	se animan simultáneamente, en paralelo
+Layer	Camada	Capa
+When it animates	Quando é animada	Cuándo se anima
+Logo	Logotipo	Logotipo
+First	Primeiro	Primero
+Title text	Texto do título	Texto del título
+Same time as Logo	Ao mesmo tempo que o logotipo	Al mismo tiempo que el logotipo
+After both Logo and Title finish	Depois que logotipo e título terminarem	Cuando terminen el logotipo y el título
+Chart	Gráfico	Gráfico
+(blank)	(em branco)	(en blanco)
+Last, after Background	Por último, depois do fundo	Al final, después del fondo
+The Slicer cuts one layer into multiple new layers, each with its own independent animation. Select a layer and click the	O fatiador divide uma camada em várias, cada uma com animação independente. Selecione uma camada e clique em	El divisor divide una capa en varias, cada una con animación independiente. Selecciona una capa y pulsa
+button above the layer list to open it.	acima da lista de camadas para abri-lo.	encima de la lista de capas para abrirlo.
+Grid mode	Modo Grade	Modo Cuadrícula
+Divides the image into a uniform grid. Set Columns (1–8) and Rows (1–8). Each cell becomes its own layer. Fastest way to slice.	Divide a imagem em uma grade uniforme. Defina Colunas (1–8) e Linhas (1–8). Cada célula vira uma camada. É a forma mais rápida de fatiar.	Divide la imagen en una cuadrícula uniforme. Define Columnas (1–8) y Filas (1–8). Cada celda se convierte en una capa. Es la forma más rápida de dividir.
+Rectangles mode	Modo Retângulos	Modo Rectángulos
+Draw custom rectangular regions on the preview canvas. Each rectangle becomes a separate layer. More control than Grid.	Desenhe regiões retangulares na prévia. Cada retângulo vira uma camada separada. Oferece mais controle que a Grade.	Dibuja regiones rectangulares en la vista previa. Cada rectángulo se convierte en una capa separada. Ofrece más control que Cuadrícula.
+Freehand mode	Modo Mão livre	Modo Mano alzada
+Click to place polygon points around the area you want to isolate. Most precise option — ideal for irregular shapes and character silhouettes.	Clique para marcar pontos ao redor da área a isolar. É a opção mais precisa, ideal para formas irregulares e silhuetas.	Haz clic para marcar puntos alrededor del área que quieres aislar. Es la opción más precisa, ideal para formas irregulares y siluetas.
+After slicing	Após fatiar	Después de dividir
+All new layers inherit the original layer's settings. The original layer is removed. Set different animation orders on each new layer independently.	As novas camadas herdam as configurações da original, que é removida. Defina ordens de animação diferentes para cada nova camada.	Las nuevas capas heredan los ajustes de la original, que se elimina. Define órdenes de animación distintos para cada nueva capa.
+The canvas background sits behind all layers and is included in the exported video. Choose from solid colors (White, Black, None, Custom) or ten preset textures:	O fundo fica atrás das camadas e é incluído no vídeo. Escolha cores sólidas (Branco, Preto, Nenhum, Personalizado) ou dez texturas predefinidas:	El fondo queda detrás de las capas y se incluye en el video. Elige colores sólidos (Blanco, Negro, Ninguno, Personalizado) o diez texturas predefinidas:
+Description	Descrição	Descripción
+Light blue horizontal lines on a pale blue background	Linhas horizontais azuis claras sobre fundo azul suave	Líneas horizontales azul claro sobre fondo azul suave
+A grid of faint blue lines on white	Grade de linhas azuis suaves sobre branco	Cuadrícula de líneas azules suaves sobre blanco
+A warm amber-to-gold radial gradient	Degradê radial de âmbar a dourado	Degradado radial de ámbar a dorado
+A dark green radial gradient — mimics a real chalkboard	Degradê radial verde escuro que imita uma lousa	Degradado radial verde oscuro que imita una pizarra
+Soft Gradient	Degradê suave	Degradado suave
+A subtle purple-to-blue-to-mint diagonal gradient	Degradê diagonal suave de roxo a azul e menta	Degradado diagonal suave de violeta a azul y menta
+Warm White	Branco quente	Blanco cálido
+An off-white near-neutral background	Fundo quase branco e neutro	Fondo casi blanco y neutro
+A dark blue background with lighter blue grid lines	Fundo azul escuro com grade azul clara	Fondo azul oscuro con cuadrícula azul clara
+A brown crosshatch pattern on an amber background	Padrão de hachura marrom sobre fundo âmbar	Patrón de rayado marrón sobre fondo ámbar
+Near-black, suitable for high-contrast or neon-style animations	Quase preto, ideal para alto contraste ou estilo neon	Casi negro, ideal para alto contraste o estilo neón
+A warm beige with a faint horizontal texture	Bege quente com textura horizontal suave	Beige cálido con textura horizontal suave
